@@ -7,7 +7,7 @@
     <script src="js/banco.js"></script>
     <title>Home | TrocaBook</title>
     </head>
-<body onload="local(); logado(); localprod()">  
+<body onload="local(); logado();">   
 <header>
 <div class="wrapper">  
     <table class="cabecalho"><tr>
@@ -33,6 +33,16 @@
     </tr>
     </table>
 </header>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
     <div class="banner">
         <h1 id="saudacao"></h1>
         <br><img class="banner" src="img/Banner.png">
@@ -95,6 +105,6 @@
             <small>© 2024 Sistema Trocabook<br>Todos os direitos reservados</small>
         </div>
     </footer>  
-</div>    
+</div>   
 </body>
 </html>

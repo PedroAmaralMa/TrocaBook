@@ -7,7 +7,7 @@
     <script src="js/banco.js"></script>
     <title>Sobre nós | TrocaBook</title>
 </head>
-<body onload="local(); logado()">
+<body onload="local(); logado();">
     <header>
         <div class="wrapper">  
             <table class="cabecalho"><tr>
@@ -33,6 +33,16 @@
             </tr>
             </table>
     </header>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
     <div class="sobrenos">
         <h1>Quem Somos Nós</h1>
         <p>Somos alunos da Fatec Diadema e desenvolvemos um site inovador para venda e troca de livros. Nossa plataforma é onde os usuários não apenas negociam, mas também se envolvem em uma comunidade ativa. Aqui, cada transação é uma oportunidade de promover a reutilização de livros e economizar recursos. Junte-se a nós para fazer parte dessa missão de conscientização e eficiência.</p>

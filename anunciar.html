@@ -7,7 +7,7 @@
   <script src="js/banco.js"></script>
   <title>Criar novo anuncio | TrocaBook</title>
 </head>
-<body onload="local(); logado()">
+<body onload="local(); logado();">
   <header>
     <div class="wrapper">  
         <table class="cabecalho"><tr>
@@ -33,7 +33,16 @@
         </tr>
         </table>
   </header>
-
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
   <div class="paganunciar">
     <div class="anuncio">
     <h1>Crie o seu anuncio</h1>

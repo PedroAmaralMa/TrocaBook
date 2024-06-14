@@ -12,6 +12,7 @@ Tecnologias utilizadas:
 HTML, CSS e JavaScript;
 FrameWork BootStrap;
 Figma para construção das páginas;
+Word para construção da documentação;
 
 Importante:
 Nem todas as telas são funcionais;

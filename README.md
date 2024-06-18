@@ -1,4 +1,4 @@
-# Trocabook
+# TrocaBook
 "Somos alunos da Fatec Diadema e desenvolvemos um site inovador para venda e troca de livros. Nossa plataforma é onde os usuários não apenas negociam, mas também se envolvem em uma comunidade ativa. 
 Aqui, cada transação é uma oportunidade de promover a reutilização de livros e economizar recursos. 
 Junte-se a nós para fazer parte dessa missão de conscientização e eficiência."

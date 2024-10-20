@@ -96,7 +96,7 @@ function cadastrar_livro(){
 }
 
 function cadastrar_livroP(){
-    alert("Função em implementação")
+    window.location.href = "https://www.figma.com/proto/RDdWjMh1j7M6kj819wh6RT/Untitled?node-id=2-2&node-type=frame&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
 }
 
 function exibir_livros_cadastrados(){
@@ -197,7 +197,7 @@ function logado(){
         let a_meuslivros = document.createElement("a");
         a_meuslivros.className = "meus-livros4";
         a_meuslivros.innerHTML = "Meus livros";
-        a_meuslivros.href = "index.html";
+        a_meuslivros.href = "https://www.figma.com/proto/cYRWO9VFH9kLOvV2RZlCgT/Untitled?node-id=1-2&node-type=frame&t=Wsp9bdP6phHgnyb2-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1";
 
         let deslogar = document.createElement("button");
         deslogar.style.width = "100px";
